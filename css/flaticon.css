@@ -5,7 +5,7 @@
 
 
 @font-face {
-  font-family: "Flaticon";
+  font-family: Flaticon;
   src: url("../fonts/flaticon/font/Flaticon.eot");
   src: url("../fonts/flaticon/font/Flaticon%EF%B9%96.eot#iefix") format("embedded-opentype"),
        url("../fonts/flaticon/font/Flaticon.woff") format("woff"),
@@ -15,15 +15,15 @@
   font-style: normal;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
+@media screen and (min-device-pixel-ratio:0) {
   @font-face {
-    font-family: "Flaticon";
+    font-family: Flaticon;
     src: url("../fonts/flaticon/font/Flaticon.svg#Flaticon") format("svg");
   }
 }
 
-[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+[class^="flaticon-"]::before, [class*=" flaticon-"]::before,
+[class^="flaticon-"]::after, [class*=" flaticon-"]::after {   
   font-family: Flaticon;
   font-style: normal;
   font-weight: normal;
@@ -36,10 +36,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.flaticon-hammer:before { content: "\f100"; }
-.flaticon-worker:before { content: "\f101"; }
-.flaticon-engineer-1:before { content: "\f102"; }
-.flaticon-engineer:before { content: "\f103"; }
-.flaticon-worker-1:before { content: "\f104"; }
-.flaticon-architect:before { content: "\f105"; }
-.flaticon-crane:before { content: "\f106"; }
+.flaticon-hammer::before { content: "\f100"; }
+.flaticon-worker::before { content: "\f101"; }
+.flaticon-engineer-1::before { content: "\f102"; }
+.flaticon-engineer::before { content: "\f103"; }
+.flaticon-worker-1::before { content: "\f104"; }
+.flaticon-architect::before { content: "\f105"; }
+.flaticon-crane::before { content: "\f106"; }

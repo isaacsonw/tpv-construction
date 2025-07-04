@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Building A Condominium",
+    "image": "images/project-1.jpg",
+    "description": "",
+    "location": "San Francisco, California, USA",
+    "categories": ["Latest", "All"]
+  },
+  {
+    "id": 2,
+    "title": "Building A Condominium",
+    "image": "https://preview.colorlib.com/theme/wilcon/images/project-2.jpg",
+    "description": "",
+    "location": "San Francisco, California, USA",
+    "categories": ["Latest", "All"]
+  },
+  {
+    "id": 3,
+    "title": "Building A Condominium",
+    "image": "https://preview.colorlib.com/theme/wilcon/images/project-3.jpg",
+    "description": "",
+    "location": "San Francisco, California, USA",
+    "categories": ["GTB", "All"]
+  },
+  {
+    "id": 4,
+    "title": "Building A Condominium",
+    "image": "https://preview.colorlib.com/theme/wilcon/images/project-4.jpg",
+    "description": "",
+    "location": "San Francisco, California, USA",
+    "categories": ["GTB", "All"]
+  },
+  {
+    "id": 5,
+    "title": "Building A Condominium",
+    "image": "https://preview.colorlib.com/theme/wilcon/images/project-5.jpg",
+    "description": "",
+    "location": "San Francisco, California, USA",
+    "categories": ["All"]
+  },
+  {
+    "id": 6,
+    "title": "Building A Condominium",
+    "image": "https://preview.colorlib.com/theme/wilcon/images/project-6.jpg",
+    "description": "",
+    "location": "San Francisco, California, USA",
+    "categories": ["All"]
+  }
+]

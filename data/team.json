@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Emeka Okonkwo",
+    "position": "Senior Project Manager",
+    "image": "images/person_1.jpg",
+    "quote": "At TPV Construction, we believe in delivering excellence in every project. Our commitment to quality and attention to detail ensures that every client receives the best possible outcome."
+  },
+  {
+    "id": 2,
+    "name": "Fatima Bello",
+    "position": "Chief Engineer",
+    "image": "images/person_2.jpg",
+    "quote": "Our engineering team combines technical expertise with innovative solutions to deliver projects that meet the highest standards of safety and quality."
+  },
+  {
+    "id": 3,
+    "name": "Kemi Adebayo",
+    "position": "Senior Architect",
+    "image": "images/person_3.jpg",
+    "quote": "We create architectural designs that blend modern aesthetics with functional excellence, ensuring every space serves its purpose beautifully."
+  },
+  {
+    "id": 4,
+    "name": "Adebayo Johnson",
+    "position": "Senior Architect",
+    "image": "images/about.jpg",
+    "quote": "Our architectural designs blend modern innovation with cultural sensitivity, creating spaces that resonate with Nigerian values while meeting international standards."
+  },
+  {
+    "id": 5,
+    "name": "Chioma Okechukwu",
+    "position": "Project Director",
+    "image": "images/about-2.jpg",
+    "quote": "We ensure every project is delivered on time and within budget, maintaining the highest quality standards that TPV Construction is known for."
+  },
+  {
+    "id": 6,
+    "name": "Mohammed Ibrahim",
+    "position": "Chief Executive Officer",
+    "image": "images/about-3.jpg",
+    "quote": "TPV Construction's success is built on our commitment to excellence, innovation, and the trust our clients place in us to deliver their vision."
+  },
+  {
+    "id": 7,
+    "name": "Grace Nwosu",
+    "position": "Operations Manager",
+    "image": "images/aboutw.jpg",
+    "quote": "Our operations team ensures seamless project execution, from initial planning to final delivery, maintaining quality at every stage."
+  },
+  {
+    "id": 8,
+    "name": "David Okonkwo",
+    "position": "Chief Financial Officer",
+    "image": "images/abt.jpg",
+    "quote": "We maintain financial transparency and efficiency in all our projects, ensuring value for money while delivering exceptional results."
+  }
+]

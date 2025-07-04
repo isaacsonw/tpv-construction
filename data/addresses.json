@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Head Office",
+    "address": "123 Main Street, Port Harcourt, Rivers State, Nigeria",
+    "phone": "+234 701 234 5678",
+    "email": "headoffice@tpvconstruction.com.ng",
+    "lat": 4.81741045,
+    "lng": 7.00479655
+  },
+  {
+    "name": "Lagos Branch",
+    "address": "456 Island Avenue, Victoria Island, Lagos, Nigeria",
+    "phone": "+234 809 876 5432",
+    "email": "lagos@tpvconstruction.com.ng",
+    "lat": 6.428055,
+    "lng": 3.421944
+  },
+  {
+    "name": "Abuja Office",
+    "address": "789 Central Business District, Abuja, Nigeria",
+    "phone": "+234 803 333 4444",
+    "email": "abuja@tpvconstruction.com.ng",
+    "lat": 9.05785,
+    "lng": 7.49508
+  },
+  {
+    "name": "Enugu Branch",
+    "address": "101 Zik Avenue, Enugu, Nigeria",
+    "phone": "+234 812 345 6789",
+    "email": "enugu@tpvconstruction.com.ng",
+    "lat": 6.524379,
+    "lng": 7.508572
+  },
+  {
+    "name": "Kaduna Branch",
+    "address": "202 Ahmadu Bello Way, Kaduna, Nigeria",
+    "phone": "+234 814 567 8901",
+    "email": "kaduna@tpvconstruction.com.ng",
+    "lat": 10.51046,
+    "lng": 7.41653
+  }
+]

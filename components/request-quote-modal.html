@@ -1,0 +1,104 @@
+<h3>Request Quote</h3>
+<div>
+  <div class="form-group">
+    <input
+      type="text"
+      class="form-control"
+      name="first_name"
+      placeholder="First Name"
+      required />
+  </div>
+  <div class="form-group">
+    <input
+      type="text"
+      class="form-control"
+      name="last_name"
+      placeholder="Last Name"
+      required />
+  </div>
+  <div class="form-group">
+    <input type="text" class="form-control" name="phone" placeholder="Phone" />
+  </div>
+</div>
+<div>
+  <div class="form-group">
+    <div class="form-field">
+      <div class="select-wrap">
+        <div class="icon">
+          <span class="fa fa-chevron-down"></span>
+        </div>
+        <select name="service" class="form-control" required>
+          <option value="">Select Your Services</option>
+          <option value="Architecture">Architecture</option>
+          <option value="Renovation">Renovation</option>
+          <option value="Construction">Construction</option>
+          <option value="Interior &amp; Exterior">
+            Interior &amp; Exterior
+          </option>
+          <option value="Chemical Research">Chemical Research</option>
+          <option value="Petroleum &amp; Gas">Petroleum &amp; Gas</option>
+          <option value="Other Services">Other Services</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+  <div class="form-group">
+    <textarea
+      name="message"
+      cols="30"
+      rows="4"
+      class="form-control"
+      placeholder="Message"></textarea>
+  </div>
+  <div class="form-group">
+    <input
+      type="submit"
+      value="Request A Quote"
+      class="btn btn-primary py-3 px-4" />
+  </div>
+  <div
+    id="quote-success"
+    style="display: none; color: green; font-weight: 600; margin-top: 10px">
+    Thank you! Your request has been sent.
+  </div>
+</div>
+
+<script>
+  $(document).ready(function () {
+    $("#request-quote-modal").addClass("modal-body p-4 p-md-5");
+  });
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var form = document.getElementById("request-quote-form");
+    var successMsg = document.getElementById("quote-success");
+    if (form) {
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        var data = new FormData(form);
+        fetch(form.action, {
+          method: "POST",
+          body: data,
+          headers: { Accept: "application/json" }
+        })
+          .then(function (response) {
+            if (response.ok) {
+              form.reset();
+              successMsg.style.display = "block";
+            } else {
+              response.json().then(function (data) {
+                alert(
+                  data.error ||
+                    "Oops! There was a problem submitting your form."
+                );
+              });
+            }
+          })
+          .catch(function () {
+            alert("Oops! There was a problem submitting your form.");
+          });
+      });
+    }
+  });
+</script>

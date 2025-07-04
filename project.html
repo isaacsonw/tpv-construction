@@ -54,148 +54,59 @@
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 text-center heading-section ftco-animate">
-            <span class="subheading">Our Global Work Industries</span>
-            <h2 class="mb-4">Latest Projects</h2>
+            <span class="subheading">Our Project Portfolio</span>
+            <h2 class="mb-4">Featured Projects</h2>
+            <p class="mb-4">
+              Explore our diverse portfolio of successful construction projects
+              across Nigeria, showcasing our expertise in residential,
+              commercial, and industrial construction.
+            </p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="project">
-              <a
-                href="images/project-1.jpg"
-                class="img image-popup d-flex align-items-center"
-                style="background-image: url(images/project-1.jpg)">
-                <div
-                  class="icon d-flex align-items-center justify-content-center mb-5">
-                  <span class="fa fa-plus"></span>
-                </div>
-              </a>
-              <div class="text">
-                <span class="subheading">Building</span>
-                <h3>Building A Condominium</h3>
-                <p>
-                  <span class="fa fa-map-marker mr-1"></span> San Francisco,
-                  California, USA
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="project">
-              <a
-                href="https://preview.colorlib.com/theme/wilcon/images/project-2.jpg"
-                class="img image-popup d-flex align-items-center"
-                style="
-                  background-image: url(https://preview.colorlib.com/theme/wilcon/images/project-2.jpg);
-                ">
-                <div
-                  class="icon d-flex align-items-center justify-content-center mb-5">
-                  <span class="fa fa-plus"></span>
-                </div>
-              </a>
-              <div class="text">
-                <span class="subheading">Building</span>
-                <h3>Building A Condominium</h3>
-                <p>
-                  <span class="fa fa-map-marker mr-1"></span> San Francisco,
-                  California, USA
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="project">
-              <a
-                href="https://preview.colorlib.com/theme/wilcon/images/project-3.jpg"
-                class="img image-popup d-flex align-items-center"
-                style="
-                  background-image: url(https://preview.colorlib.com/theme/wilcon/images/project-3.jpg);
-                ">
-                <div
-                  class="icon d-flex align-items-center justify-content-center mb-5">
-                  <span class="fa fa-plus"></span>
-                </div>
-              </a>
-              <div class="text">
-                <span class="subheading">Building</span>
-                <h3>Building A Condominium</h3>
-                <p>
-                  <span class="fa fa-map-marker mr-1"></span> San Francisco,
-                  California, USA
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="project">
-              <a
-                href="https://preview.colorlib.com/theme/wilcon/images/project-4.jpg"
-                class="img image-popup d-flex align-items-center"
-                style="
-                  background-image: url(https://preview.colorlib.com/theme/wilcon/images/project-4.jpg);
-                ">
-                <div
-                  class="icon d-flex align-items-center justify-content-center mb-5">
-                  <span class="fa fa-plus"></span>
-                </div>
-              </a>
-              <div class="text">
-                <span class="subheading">Building</span>
-                <h3>Building A Condominium</h3>
-                <p>
-                  <span class="fa fa-map-marker mr-1"></span> San Francisco,
-                  California, USA
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="project">
-              <a
-                href="https://preview.colorlib.com/theme/wilcon/images/project-5.jpg"
-                class="img image-popup d-flex align-items-center"
-                style="
-                  background-image: url(https://preview.colorlib.com/theme/wilcon/images/project-5.jpg);
-                ">
-                <div
-                  class="icon d-flex align-items-center justify-content-center mb-5">
-                  <span class="fa fa-plus"></span>
-                </div>
-              </a>
-              <div class="text">
-                <span class="subheading">Building</span>
-                <h3>Building A Condominium</h3>
-                <p>
-                  <span class="fa fa-map-marker mr-1"></span> San Francisco,
-                  California, USA
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="project">
-              <a
-                href="https://preview.colorlib.com/theme/wilcon/images/project-6.jpg"
-                class="img image-popup d-flex align-items-center"
-                style="
-                  background-image: url(https://preview.colorlib.com/theme/wilcon/images/project-6.jpg);
-                ">
-                <div
-                  class="icon d-flex align-items-center justify-content-center mb-5">
-                  <span class="fa fa-plus"></span>
-                </div>
-              </a>
-              <div class="text">
-                <span class="subheading">Building</span>
-                <h3>Building A Condominium</h3>
-                <p>
-                  <span class="fa fa-map-marker mr-1"></span> San Francisco,
-                  California, USA
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Tabs Navigation -->
+        <ul class="nav nav-tabs mb-4" id="projectTabs" role="tablist">
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="all-tab"
+              data-toggle="tab"
+              href="#all"
+              role="tab"
+              aria-controls="all"
+              aria-selected="false"
+              tabindex="-1"
+              >All
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              id="latest-tab"
+              data-toggle="tab"
+              href="#latest"
+              role="tab"
+              aria-controls="latest"
+              aria-selected="true"
+              tabindex="0"
+              >Latest
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="gtb-tab"
+              data-toggle="tab"
+              href="#gtb"
+              role="tab"
+              aria-controls="gtb"
+              aria-selected="false"
+              tabindex="-1"
+              >GTB
+            </a>
+          </li>
+        </ul>
+        <!-- Tabs Content (to be rendered by JS) -->
+        <div id="projectTabsContent"></div>
         <div class="row mt-5">
           <div class="col text-center">
             <div class="block-27">
@@ -214,154 +125,7 @@
       </div>
     </section>
     <footer class="ftco-footer">
-      <div class="container mb-5 pb-4">
-        <div class="row">
-          <div class="col-lg col-md-6">
-            <div class="ftco-footer-widget">
-              <h2 class="ftco-heading-2 d-flex align-items-center">About</h2>
-              <p>
-                Far far away, behind the word mountains, far from the countries.
-              </p>
-              <ul class="ftco-footer-social list-unstyled mt-4">
-                <li>
-                  <a href="#"><span class="fa fa-twitter"></span></a>
-                </li>
-                <li>
-                  <a href="#"><span class="fa fa-facebook"></span></a>
-                </li>
-                <li>
-                  <a href="#"><span class="fa fa-instagram"></span></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="ftco-footer-widget">
-              <h2 class="ftco-heading-2">Links</h2>
-              <div class="d-flex">
-                <ul class="list-unstyled mr-md-4">
-                  <li>
-                    <a href="#"
-                      ><span class="fa fa-chevron-right mr-2"></span>Project</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><span class="fa fa-chevron-right mr-2"></span>About Us</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><span class="fa fa-chevron-right mr-2"></span>Services</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><span class="fa fa-chevron-right mr-2"></span>Blog
-                      Posts</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><span class="fa fa-chevron-right mr-2"></span
-                      >Industries</a
-                    >
-                  </li>
-                </ul>
-                <ul class="list-unstyled ml-md-5">
-                  <li>
-                    <a href="#"
-                      ><span class="fa fa-chevron-right mr-2"></span>Contact</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><span class="fa fa-chevron-right mr-2"></span>Help</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><span class="fa fa-chevron-right mr-2"></span>Privacy
-                      Policy</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><span class="fa fa-chevron-right mr-2"></span>Terms of
-                      Use</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg col-md-6">
-            <div class="ftco-footer-widget">
-              <h2 class="ftco-heading-2">Services</h2>
-              <ul class="list-unstyled">
-                <li>
-                  <a href="#"
-                    ><span class="fa fa-chevron-right mr-2"></span>Customer
-                    Services</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    ><span class="fa fa-chevron-right mr-2"></span>Prompt
-                    Delivery</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    ><span class="fa fa-chevron-right mr-2"></span>Reliable
-                    Equipment</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    ><span class="fa fa-chevron-right mr-2"></span>New Heavy
-                    Equipment</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg col-md-6">
-            <div class="ftco-footer-widget">
-              <h2 class="ftco-heading-2">Have a Questions?</h2>
-              <div class="block-23 mb-3">
-                <ul>
-                  <li>
-                    <span class="fa fa-map-marker mr-3"></span
-                    ><span class="text"
-                      >Port Harcourt, Rivers State, Nigeria</span
-                    >
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><span class="fa fa-phone mr-3"></span>
-                      <span class="text">
-                        +2347055878311 +2347087664507 +2347016731203
-                      </span>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#"
-                      ><span class="fa fa-paper-plane mr-3"></span
-                      ><span class="text"
-                        ><span class="__cf_email__"
-                          >info@tpvconstruction.com.ng</span
-                        ></span
-                      ></a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div id="footer-section"></div>
       <div class="container-fluid bg-primary">
         <div class="container">
           <div class="row">
@@ -396,66 +160,14 @@
               <span aria-hidden="true" class="fa fa-close"></span>
             </button>
           </div>
-          <div class="modal-body p-4 p-md-5">
-            <form action="#" class="appointment-form ftco-animate">
-              <h3>Request Quote</h3>
-              <div class>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="First Name" />
-                </div>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Last Name" />
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Phone" />
-                </div>
-              </div>
-              <div class>
-                <div class="form-group">
-                  <div class="form-field">
-                    <div class="select-wrap">
-                      <div class="icon">
-                        <span class="fa fa-chevron-down"></span>
-                      </div>
-                      <select name id class="form-control">
-                        <option value>Select Your Services</option>
-                        <option value>Architecture</option>
-                        <option value>Renovation</option>
-                        <option value>Construction</option>
-                        <option value>Interior &amp; Exterior</option>
-                        <option value>Chemical Research</option>
-                        <option value>Petroleum &amp; Gas</option>
-                        <option value>Other Services</option>
-                      </select>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class>
-                <div class="form-group">
-                  <textarea
-                    name
-                    id
-                    cols="30"
-                    rows="4"
-                    class="form-control"
-                    placeholder="Message"></textarea>
-                </div>
-                <div class="form-group">
-                  <input
-                    type="submit"
-                    value="Request A Quote"
-                    class="btn btn-primary py-3 px-4" />
-                </div>
-              </div>
-            </form>
-          </div>
+          <!--#include file="components/request-quote.html" -->
+          <form
+            action="https://formspree.io/f/manjkelj"
+            method="POST"
+            class="appointment-form ftco-animate"
+            id="request-quote-form">
+            <div id="request-quote-modal"></div>
+          </form>
         </div>
       </div>
     </div>
@@ -495,5 +207,74 @@
     <script src="js/jquery.timepicker.min.js"></script>
     <script src="js/scrollax.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/pages-js/project.js"></script>
+    <script src="js/project-tabs.js"></script>
+    <style>
+      .tab-pane.fade-in {
+        animation: fadeInTab 0.4s;
+      }
+      @keyframes fadeInTab {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    </style>
+    <script>
+      $(function () {
+        // Hide all tab panes except the first
+        $(".tab-pane").hide();
+        $(".tab-pane").first().show();
+        // Accessibility: set ARIA attributes
+        $("#projectTabs .nav-link").attr({
+          "aria-selected": "false",
+          tabindex: "-1"
+        });
+        $("#projectTabs .nav-link")
+          .first()
+          .attr({ "aria-selected": "true", tabindex: "0" });
+        $(".tab-pane").attr({ "aria-hidden": "true" });
+        $(".tab-pane").first().attr({ "aria-hidden": "false" });
+
+        // Handle tab click
+        $('#projectTabs a[data-toggle="tab"]').on("click", function (e) {
+          e.preventDefault();
+          var target = $(this).attr("href");
+          // Hide all panes, show target with fade
+          $(".tab-pane")
+            .hide()
+            .removeClass("fade-in")
+            .attr("aria-hidden", "true");
+          $(target)
+            .fadeIn(200)
+            .addClass("fade-in")
+            .attr("aria-hidden", "false");
+          // Set active class and ARIA on tabs
+          $("#projectTabs .nav-link")
+            .removeClass("active")
+            .attr({ "aria-selected": "false", tabindex: "-1" });
+          $(this)
+            .addClass("active")
+            .attr({ "aria-selected": "true", tabindex: "0" });
+        });
+
+        // Keyboard navigation for tabs
+        $("#projectTabs .nav-link").on("keydown", function (e) {
+          var $tabs = $("#projectTabs .nav-link");
+          var idx = $tabs.index(this);
+          if (e.which === 37) {
+            // left arrow
+            var prev = idx === 0 ? $tabs.length - 1 : idx - 1;
+            $tabs.eq(prev).focus().click();
+          } else if (e.which === 39) {
+            // right arrow
+            var next = idx === $tabs.length - 1 ? 0 : idx + 1;
+            $tabs.eq(next).focus().click();
+          }
+        });
+      });
+    </script>
   </body>
 </html>

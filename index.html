@@ -53,17 +53,20 @@
                 data-scrollax-parent="true">
                 <div class="col-lg-6 ftco-animate">
                   <div class="mt-5">
-                    <h1 class="mb-4">TPV: We Build <br />Great Projects</h1>
+                    <h1 class="mb-4">TPV: Building <br />Nigeria's Future</h1>
                     <p class="mb-4">
-                      We specialize in creating exceptional structures that
-                      stand the test of time. Our team of skilled professionals
-                      combines innovative design with superior craftsmanship to
-                      deliver projects that exceed expectations. From
-                      residential homes to commercial complexes, we bring your
-                      vision to life with precision and passion.
+                      As a leading construction company in Nigeria, TPV
+                      Construction specializes in delivering exceptional
+                      residential, commercial, and industrial projects across
+                      Lagos, Abuja, Port Harcourt, and beyond. Our team of
+                      certified professionals combines international standards
+                      with local expertise to create structures that stand the
+                      test of time.
                     </p>
                     <p>
-                      <a href="#" class="btn btn-primary">Our Services</a>
+                      <a href="services.html" class="btn btn-primary"
+                        >Our Services</a
+                      >
                       <a
                         href="#"
                         class="btn btn-white"
@@ -95,14 +98,21 @@
                 data-scrollax-parent="true">
                 <div class="col-lg-6 ftco-animate">
                   <div class="mt-5">
-                    <h1 class="mb-4">TPV: Quality <br />Construction</h1>
+                    <h1 class="mb-4">
+                      TPV: Quality <br />Construction Excellence
+                    </h1>
                     <p class="mb-4">
-                      We pride ourselves on delivering high-quality construction
-                      projects that exceed our clients' expectations. Our team
-                      of experts ensures that every detail is perfect.
+                      With over 15 years of experience in Nigeria's construction
+                      industry, TPV Construction delivers premium quality
+                      projects that exceed client expectations. Our commitment
+                      to safety, innovation, and sustainable building practices
+                      ensures every project meets international standards while
+                      respecting local building codes and cultural preferences.
                     </p>
                     <p>
-                      <a href="#" class="btn btn-primary">Our Projects</a>
+                      <a href="project.html" class="btn btn-primary"
+                        >Our Projects</a
+                      >
                       <a
                         href="#"
                         class="btn btn-white"
@@ -133,15 +143,22 @@
                 data-scrollax-parent="true">
                 <div class="col-lg-8 ftco-animate">
                   <div class="mt-5">
-                    <h1 class="mb-4">TPV: Modern <br />and trending house</h1>
+                    <h1 class="mb-4">
+                      TPV: Modern <br />Construction Solutions
+                    </h1>
                     <p class="mb-4">
-                      Get a modern and trending house with the best quality and
-                      affordable price. We are a team of experienced
-                      professionals dedicated to bringing your dream home to
-                      life. Our work is in a class of its own.
+                      From contemporary residential homes to cutting-edge
+                      commercial complexes, TPV Construction brings your
+                      architectural vision to life with precision and
+                      innovation. Our expertise spans steel fabrication,
+                      interior design, and sustainable building practices,
+                      making us the preferred choice for discerning clients
+                      across Nigeria.
                     </p>
                     <p>
-                      <a href="#" class="btn btn-primary">Meet Our Team</a>
+                      <a href="about.html" class="btn btn-primary"
+                        >Meet Our Team</a
+                      >
                       <a
                         href="#"
                         class="btn btn-white"
@@ -158,21 +175,109 @@
         </div>
       </div>
     </div>
+    <!-- Carousel Thumbnails: vertical, right side -->
+    <div class="carousel-thumbnails-vertical">
+      <img
+        src="images/bg_2.jpeg"
+        class="carousel-thumb active"
+        data-slide-to="0"
+        style="
+          width: 70px;
+          height: 40px;
+          object-fit: cover;
+          cursor: pointer;
+          margin: 8px 0;
+          border-radius: 4px;
+          border: 2px solid #1a237e;
+          display: block;
+        " />
+      <img
+        src="images/bg_1.jpg"
+        class="carousel-thumb"
+        data-slide-to="1"
+        style="
+          width: 70px;
+          height: 40px;
+          object-fit: cover;
+          cursor: pointer;
+          margin: 8px 0;
+          border-radius: 4px;
+          border: 2px solid transparent;
+          display: block;
+        " />
+      <img
+        src="images/bg_2.jpg"
+        class="carousel-thumb"
+        data-slide-to="2"
+        style="
+          width: 70px;
+          height: 40px;
+          object-fit: cover;
+          cursor: pointer;
+          margin: 8px 0;
+          border-radius: 4px;
+          border: 2px solid transparent;
+          display: block;
+        " />
+    </div>
+    <style>
+      .carousel-thumbnails-vertical {
+        position: absolute;
+        top: 50%;
+        right: 24px;
+        transform: translateY(-50%);
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding: 8px 4px;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(26, 35, 126, 0.08);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+      }
+      .carousel-thumb.active {
+        border-color: #ff0707 !important;
+        box-shadow: 0 0 0 2px #ffc10755;
+      }
+      @media (max-width: 768px) {
+        .carousel-thumbnails-vertical {
+          position: static;
+          flex-direction: row;
+          justify-content: center;
+          background: none;
+          box-shadow: none;
+          padding: 0;
+        }
+        .carousel-thumb {
+          margin: 0 4px !important;
+          width: 50px !important;
+          height: 28px !important;
+        }
+      }
+    </style>
 
     <section class="ftco-section ftco-no-pt ftco-no-pb ftco-services-2">
       <div class="container">
         <div class="row no-gutters d-flex">
           <div class="col-lg-4 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services d-flex">
+            <div class="media block-6 services">
               <div
                 class="icon justify-content-center align-items-center d-flex">
                 <span class="flaticon-engineer-1"></span>
               </div>
-              <div class="media-body pl-4">
+              <div class="media-body">
                 <h3 class="heading mb-3">Quality Construction</h3>
                 <p>
-                  A small river named Niger flows by their place and supplies it
-                  with the necessary regelialia.
+                  TPV Construction delivers premium quality projects using
+                  advanced building techniques and high-grade materials. Our
+                  certified engineers and skilled craftsmen ensure every
+                  structure meets international standards while adapting to
+                  Nigeria's unique environmental and regulatory requirements.
                 </p>
               </div>
             </div>
@@ -184,10 +289,13 @@
                 <span class="flaticon-worker-1"></span>
               </div>
               <div class="media-body pl-4">
-                <h3 class="heading mb-3">Professional Liability</h3>
+                <h3 class="heading mb-3">Professional Excellence</h3>
                 <p>
-                  A small river named Niger flows by their place and supplies it
-                  with the necessary regelialia.
+                  Our team of experienced professionals brings over 15 years of
+                  construction expertise to every project. From initial planning
+                  to final delivery, we maintain the highest standards of
+                  safety, efficiency, and client satisfaction across all our
+                  services.
                 </p>
               </div>
             </div>
@@ -199,10 +307,12 @@
                 <span class="flaticon-engineer"></span>
               </div>
               <div class="media-body pl-4">
-                <h3 class="heading mb-3">Dedicated To Our Clients</h3>
+                <h3 class="heading mb-3">Client-Focused Approach</h3>
                 <p>
-                  A small river named Niger flows by their place and supplies it
-                  with the necessary regelialia.
+                  At TPV Construction, we prioritize our clients' vision and
+                  requirements. Our personalized approach ensures transparent
+                  communication, timely project delivery, and exceptional
+                  results that exceed expectations while staying within budget.
                 </p>
               </div>
             </div>
@@ -231,15 +341,17 @@
                 <div class="d-flex about">
                   <div class="icon"><span class="flaticon-hammer"></span></div>
                   <h3>
-                    We're in this business since 1975 and We provide the best
-                    insdustrial services
+                    Serving Nigeria's construction needs since 2008 with
+                    excellence and innovation
                   </h3>
                 </div>
                 <p>
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind texts.
-                  Separated they live in Bookmarksgrove right at the coast of
-                  the Semantics, a large language ocean.
+                  TPV Construction has established itself as a trusted name in
+                  Nigeria's construction industry, delivering exceptional
+                  projects across residential, commercial, and industrial
+                  sectors. Our commitment to quality, safety, and sustainable
+                  building practices has made us the preferred choice for
+                  discerning clients throughout Nigeria.
                 </p>
                 <div class="d-flex video-image align-items-center mt-md-4">
                   <a
@@ -249,7 +361,8 @@
                     <span class="fa fa-play-circle"></span>
                   </a>
                   <h4 class="ml-4">
-                    This is how we work on our clients, Watch video
+                    See how we transform visions into reality - Watch our
+                    project showcase
                   </h4>
                 </div>
               </div>
@@ -264,10 +377,15 @@
           <div class="col-md-12 text-center">
             <div class="img" style="background-image: url(images/bg_2.jpg)">
               <div class="overlay"></div>
-              <h2>Providing Personalized and High Quality Services</h2>
+              <h2>
+                Providing Personalized and High Quality Construction Services
+              </h2>
               <p>
-                We can manage your dream building A small river named Niger
-                flows by their place
+                TPV Construction specializes in delivering customized
+                construction solutions that meet your unique requirements. From
+                concept to completion, we ensure every project reflects your
+                vision while maintaining the highest standards of quality and
+                safety.
               </p>
               <p class="mb-0">
                 <a href="#" class="btn btn-primary px-4 py-3"
@@ -295,12 +413,15 @@
                 style="background-image: url(images/pic1.jpg)"></div>
               <div class="text">
                 <div class="icon"><span class="flaticon-architect"></span></div>
-                <h2>Architecture</h2>
+                <h2>Architecture & Design</h2>
                 <p>
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia
+                  Our architectural team creates innovative designs that blend
+                  functionality with aesthetic appeal. We specialize in
+                  residential, commercial, and industrial architecture, ensuring
+                  every project meets modern standards while respecting local
+                  building codes.
                 </p>
-                <a href="#" class="btn-custom">Read more</a>
+                <a href="services.html" class="btn-custom">Read more</a>
               </div>
             </div>
           </div>
@@ -311,12 +432,14 @@
                 style="background-image: url(images/pic3.jpg)"></div>
               <div class="text">
                 <div class="icon"><span class="flaticon-worker"></span></div>
-                <h2>Renovation</h2>
+                <h2>Renovation & Remodeling</h2>
                 <p>
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia
+                  Transform your existing space with our expert renovation
+                  services. From interior remodeling to structural upgrades, we
+                  breathe new life into buildings while maintaining their
+                  integrity and improving functionality for modern needs.
                 </p>
-                <a href="#" class="btn-custom">Read more</a>
+                <a href="services.html" class="btn-custom">Read more</a>
               </div>
             </div>
           </div>
@@ -327,12 +450,14 @@
                 style="background-image: url(images/abt.jpg)"></div>
               <div class="text">
                 <div class="icon"><span class="flaticon-hammer"></span></div>
-                <h2>Construction</h2>
+                <h2>Construction & Building</h2>
                 <p>
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia
+                  From foundation to finishing, TPV Construction delivers
+                  complete building solutions. Our expertise covers residential
+                  homes, commercial complexes, and industrial facilities, all
+                  built to the highest standards of quality and safety.
                 </p>
-                <a href="#" class="btn-custom">Read more</a>
+                <a href="services.html" class="btn-custom">Read more</a>
               </div>
             </div>
           </div>
@@ -349,16 +474,17 @@
             <div
               class="heading-section heading-section-white p-4 pl-md-0 py-md-5 pr-md-5">
               <span class="subheading">TPV Construction Company</span>
-              <h2 class="mb-4">Best Provider for Industrial Services</h2>
+              <h2 class="mb-4">Nigeria's Premier Construction Partner</h2>
               <h4>
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.
+                With over 15 years of experience and hundreds of successful
+                projects across Nigeria, TPV Construction has established itself
+                as a trusted name in the construction industry.
               </h4>
               <p>
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts. Separated
-                they live in Bookmarksgrove right at the coast of the Semantics,
-                a large language ocean
+                Our commitment to excellence, safety, and innovation has made us
+                the preferred choice for residential, commercial, and industrial
+                construction projects. From Lagos to Abuja, Port Harcourt to
+                Kano, we deliver quality that stands the test of time.
               </p>
             </div>
           </div>
@@ -541,11 +667,10 @@
             class="col-md-6 p-4 pl-md-0 py-md-5 pr-md-5 aside-stretch d-flex align-items-center">
             <div class="heading-section heading-section-white">
               <span class="subheading" style="color: #fff"
-                >Read Testimonials</span
+                >Client Testimonials</span
               >
               <h2 class="mb-4" style="font-size: 50px">
-                It's always a joy to hear that the work we do has positively
-                reviews
+                What our satisfied clients say about TPV Construction
               </h2>
             </div>
           </div>
@@ -564,13 +689,15 @@
                   </div>
                   <div class="text">
                     <p class="mb-4">
-                      Far far away, behind the word mountains, far from the
-                      countries Vokalia and Consonantia, there live the blind
-                      texts. Separated they live in Bookmarksgrove right at the
-                      coast of the Semantics, a large language ocean
+                      TPV Construction delivered our residential project in
+                      Victoria Island beyond our expectations. Their attention
+                      to detail, quality materials, and professional team made
+                      the entire process smooth. The final result is exactly
+                      what we envisioned - a modern, beautiful home that stands
+                      out in the neighborhood.
                     </p>
-                    <p class="name">Jeff Freshman</p>
-                    <span class="position">Guests</span>
+                    <p class="name">Chief Adebayo Okechukwu</p>
+                    <span class="position">Residential Client, Lagos</span>
                   </div>
                 </div>
               </div>
@@ -587,13 +714,14 @@
                   </div>
                   <div class="text">
                     <p class="mb-4">
-                      Far far away, behind the word mountains, far from the
-                      countries Vokalia and Consonantia, there live the blind
-                      texts. Separated they live in Bookmarksgrove right at the
-                      coast of the Semantics, a large language ocean
+                      As a business owner in Abuja, I needed a commercial
+                      building that would reflect our company's professionalism.
+                      TPV Construction not only met our requirements but
+                      exceeded them. Their project management skills ensured we
+                      opened on schedule, and the quality is outstanding.
                     </p>
-                    <p class="name">Jeff Freshman</p>
-                    <span class="position">Guests</span>
+                    <p class="name">Dr. Fatima Bello</p>
+                    <span class="position">Business Owner, Abuja</span>
                   </div>
                 </div>
               </div>
@@ -610,13 +738,15 @@
                   </div>
                   <div class="text">
                     <p class="mb-4">
-                      Far far away, behind the word mountains, far from the
-                      countries Vokalia and Consonantia, there live the blind
-                      texts. Separated they live in Bookmarksgrove right at the
-                      coast of the Semantics, a large language ocean
+                      The renovation project TPV Construction completed for our
+                      office in Port Harcourt transformed our workspace
+                      completely. Their innovative design solutions and
+                      efficient execution made the renovation process
+                      stress-free. Our employees love the new modern
+                      environment.
                     </p>
-                    <p class="name">Jeff Freshman</p>
-                    <span class="position">Guests</span>
+                    <p class="name">Engr. Kemi Adebayo</p>
+                    <span class="position">Office Manager, Port Harcourt</span>
                   </div>
                 </div>
               </div>
@@ -625,7 +755,7 @@
                   class="testimony-wrap py-4 pb-5 d-flex justify-content-between align-items-end">
                   <div
                     class="user-img"
-                    style="background-image: url(images/person_1.jpg)">
+                    style="background-image: url(images/about-2.jpg)">
                     <span
                       class="quote d-flex align-items-center justify-content-center">
                       <i class="fa fa-quote-left"></i>
@@ -633,13 +763,14 @@
                   </div>
                   <div class="text">
                     <p class="mb-4">
-                      Far far away, behind the word mountains, far from the
-                      countries Vokalia and Consonantia, there live the blind
-                      texts. Separated they live in Bookmarksgrove right at the
-                      coast of the Semantics, a large language ocean
+                      TPV Construction's steel fabrication work for our
+                      industrial facility in Kaduna was exceptional. Their
+                      technical expertise and commitment to safety standards
+                      were impressive. The project was completed on time and
+                      within budget, exceeding our quality expectations.
                     </p>
-                    <p class="name">Jeff Freshman</p>
-                    <span class="position">Guests</span>
+                    <p class="name">Alhaji Mohammed Ibrahim</p>
+                    <span class="position">Factory Owner, Kaduna</span>
                   </div>
                 </div>
               </div>
@@ -648,7 +779,7 @@
                   class="testimony-wrap py-4 pb-5 d-flex justify-content-between align-items-end">
                   <div
                     class="user-img"
-                    style="background-image: url(images/person_3.jpg)">
+                    style="background-image: url(images/about-3.jpg)">
                     <span
                       class="quote d-flex align-items-center justify-content-center">
                       <i class="fa fa-quote-left"></i>
@@ -656,13 +787,14 @@
                   </div>
                   <div class="text">
                     <p class="mb-4">
-                      Far far away, behind the word mountains, far from the
-                      countries Vokalia and Consonantia, there live the blind
-                      texts. Separated they live in Bookmarksgrove right at the
-                      coast of the Semantics, a large language ocean
+                      Working with TPV Construction on our hotel project in
+                      Enugu was a pleasure from start to finish. Their
+                      architectural design team created a stunning structure
+                      that perfectly blends modern aesthetics with local
+                      cultural elements. The attention to detail is remarkable.
                     </p>
-                    <p class="name">Jeff Freshman</p>
-                    <span class="position">Guests</span>
+                    <p class="name">Mrs. Grace Nwosu</p>
+                    <span class="position">Hotel Proprietor, Enugu</span>
                   </div>
                 </div>
               </div>
@@ -679,258 +811,13 @@
             <h2 class="mb-4">Latest Blog Updates</h2>
           </div>
         </div>
-        <div class="row d-flex">
-          <div class="col-lg-4 ftco-animate">
-            <div class="blog-entry">
-              <a
-                href="blog-single.html"
-                class="block-20"
-                style="background-image: url('images/image_1.jpg')">
-              </a>
-              <div class="text d-block">
-                <div class="meta">
-                  <p>
-                    <a href="#"
-                      ><span class="fa fa-calendar mr-2"></span>Sept. 06,
-                      2020</a
-                    >
-                    <a href="#"><span class="fa fa-user mr-2"></span>Admin</a>
-                    <a href="#" class="meta-chat"
-                      ><span class="fa fa-comment mr-2"></span> 3</a
-                    >
-                  </p>
-                </div>
-                <h3 class="heading">
-                  <a href="#"
-                    >Best for any industrial &amp; business solution</a
-                  >
-                </h3>
-                <p>
-                  <a href="blog.html" class="btn btn-secondary py-2 px-3"
-                    >Read more</a
-                  >
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 ftco-animate">
-            <div class="blog-entry">
-              <a
-                href="blog-single.html"
-                class="block-20"
-                style="background-image: url('images/image_2.jpg')">
-              </a>
-              <div class="text d-block">
-                <div class="meta">
-                  <p>
-                    <a href="#"
-                      ><span class="fa fa-calendar mr-2"></span>Sept. 06,
-                      2020</a
-                    >
-                    <a href="#"><span class="fa fa-user mr-2"></span>Admin</a>
-                    <a href="#" class="meta-chat"
-                      ><span class="fa fa-comment mr-2"></span> 3</a
-                    >
-                  </p>
-                </div>
-                <h3 class="heading">
-                  <a href="#"
-                    >Best for any industrial &amp; business solution</a
-                  >
-                </h3>
-                <p>
-                  <a href="blog.html" class="btn btn-secondary py-2 px-3"
-                    >Read more</a
-                  >
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 ftco-animate">
-            <div class="blog-entry">
-              <a
-                href="blog-single.html"
-                class="block-20"
-                style="background-image: url('images/image_3.jpg')">
-              </a>
-              <div class="text d-block">
-                <div class="meta">
-                  <p>
-                    <a href="#"
-                      ><span class="fa fa-calendar mr-2"></span>Sept. 06,
-                      2020</a
-                    >
-                    <a href="#"><span class="fa fa-user mr-2"></span>Admin</a>
-                    <a href="#" class="meta-chat"
-                      ><span class="fa fa-comment mr-2"></span> 3</a
-                    >
-                  </p>
-                </div>
-                <h3 class="heading">
-                  <a href="#"
-                    >Best for any industrial &amp; business solution</a
-                  >
-                </h3>
-                <p>
-                  <a href="blog.html" class="btn btn-secondary py-2 px-3"
-                    >Read more</a
-                  >
-                </p>
-              </div>
-            </div>
-          </div>
+        <div class="row d-flex" id="latest-blogs-section">
+          <!-- Latest blogs will be loaded dynamically -->
         </div>
       </div>
     </section>
     <footer class="ftco-footer">
-      <div class="container mb-5 pb-4">
-        <div class="row">
-          <div class="col-lg col-md-6">
-            <div class="ftco-footer-widget">
-              <h2 class="ftco-heading-2 d-flex align-items-center">About</h2>
-              <p>
-                Far far away, behind the word mountains, far from the countries.
-              </p>
-              <ul class="ftco-footer-social list-unstyled mt-4">
-                <li>
-                  <a href="#"><span class="fa fa-twitter"></span></a>
-                </li>
-                <li>
-                  <a href="#"><span class="fa fa-facebook"></span></a>
-                </li>
-                <li>
-                  <a href="#"><span class="fa fa-instagram"></span></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="ftco-footer-widget">
-              <h2 class="ftco-heading-2">Links</h2>
-              <div class="d-flex">
-                <ul class="list-unstyled mr-md-4">
-                  <li>
-                    <a href="#"
-                      ><span class="fa fa-chevron-right mr-2"></span>Project</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><span class="fa fa-chevron-right mr-2"></span>About Us</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><span class="fa fa-chevron-right mr-2"></span>Services</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><span class="fa fa-chevron-right mr-2"></span>Blog
-                      Posts</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><span class="fa fa-chevron-right mr-2"></span
-                      >Industries</a
-                    >
-                  </li>
-                </ul>
-                <ul class="list-unstyled ml-md-5">
-                  <li>
-                    <a href="#"
-                      ><span class="fa fa-chevron-right mr-2"></span>Contact</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><span class="fa fa-chevron-right mr-2"></span>Help</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><span class="fa fa-chevron-right mr-2"></span>Privacy
-                      Policy</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><span class="fa fa-chevron-right mr-2"></span>Terms of
-                      Use</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg col-md-6">
-            <div class="ftco-footer-widget">
-              <h2 class="ftco-heading-2">Services</h2>
-              <ul class="list-unstyled">
-                <li>
-                  <a href="#"
-                    ><span class="fa fa-chevron-right mr-2"></span>Customer
-                    Services</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    ><span class="fa fa-chevron-right mr-2"></span>Prompt
-                    Delivery</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    ><span class="fa fa-chevron-right mr-2"></span>Reliable
-                    Equipment</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    ><span class="fa fa-chevron-right mr-2"></span>New Heavy
-                    Equipment</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg col-md-6">
-            <div class="ftco-footer-widget">
-              <h2 class="ftco-heading-2">Have a Questions?</h2>
-              <div class="block-23 mb-3">
-                <ul>
-                  <li>
-                    <span class="fa fa-map-marker mr-3"></span
-                    ><span class="text"
-                      >Port Harcourt, Rivers State, Nigeria</span
-                    >
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><span class="fa fa-phone mr-3"></span>
-                      <span class="text">
-                        +2347055878311 +2347087664507 +2347016731203
-                      </span>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#"
-                      ><span class="fa fa-paper-plane mr-3"></span
-                      ><span class="text"
-                        ><span class="__cf_email__"
-                          >info@tpvconstruction.com.ng</span
-                        ></span
-                      ></a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div id="footer-section"></div>
       <div class="container-fluid bg-primary">
         <div class="container">
           <div class="row">
@@ -947,6 +834,7 @@
         </div>
       </div>
     </footer>
+
     <div
       class="modal fade"
       id="exampleModalCenter"
@@ -965,66 +853,14 @@
               <span aria-hidden="true" class="fa fa-close"></span>
             </button>
           </div>
-          <div class="modal-body p-4 p-md-5">
-            <form action="#" class="appointment-form ftco-animate">
-              <h3>Request Quote</h3>
-              <div class>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="First Name" />
-                </div>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Last Name" />
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Phone" />
-                </div>
-              </div>
-              <div class>
-                <div class="form-group">
-                  <div class="form-field">
-                    <div class="select-wrap">
-                      <div class="icon">
-                        <span class="fa fa-chevron-down"></span>
-                      </div>
-                      <select name id class="form-control">
-                        <option value>Select Your Services</option>
-                        <option value>Architecture</option>
-                        <option value>Renovation</option>
-                        <option value>Construction</option>
-                        <option value>Interior &amp; Exterior</option>
-                        <option value>Chemical Research</option>
-                        <option value>Petroleum &amp; Gas</option>
-                        <option value>Other Services</option>
-                      </select>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class>
-                <div class="form-group">
-                  <textarea
-                    name
-                    id
-                    cols="30"
-                    rows="4"
-                    class="form-control"
-                    placeholder="Message"></textarea>
-                </div>
-                <div class="form-group">
-                  <input
-                    type="submit"
-                    value="Request A Quote"
-                    class="btn btn-primary py-3 px-4" />
-                </div>
-              </div>
-            </form>
-          </div>
+          <!--#include file="components/request-quote.html" -->
+          <form
+            action="https://formspree.io/f/manjkelj"
+            method="POST"
+            class="appointment-form ftco-animate"
+            id="request-quote-form">
+            <div id="request-quote-modal"></div>
+          </form>
         </div>
       </div>
     </div>
@@ -1065,5 +901,29 @@
     <script src="js/scrollax.min.js"></script>
 
     <script src="js/main.js"></script>
+    <script src="js/pages-js/index.js"></script>
+    <script>
+      $(function () {
+        // Thumbnail click handler for vertical thumbnails
+        $(".carousel-thumbnails-vertical .carousel-thumb").on(
+          "click",
+          function () {
+            var idx = $(this).data("slide-to");
+            $("#heroCarousel").carousel(idx);
+          }
+        );
+        // Update active thumbnail on slide
+        $("#heroCarousel").on("slide.bs.carousel", function (e) {
+          var idx = $(e.relatedTarget).index();
+          $(".carousel-thumbnails-vertical .carousel-thumb")
+            .removeClass("active")
+            .css("border-color", "transparent");
+          $(".carousel-thumbnails-vertical .carousel-thumb")
+            .eq(idx)
+            .addClass("active")
+            .css("border-color", "#FFC107");
+        });
+      });
+    </script>
   </body>
 </html>
