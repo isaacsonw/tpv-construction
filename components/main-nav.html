@@ -24,16 +24,104 @@
       <div class="icon d-flex justify-content-center align-items-center">
         <span class="fa fa-map-marker"></span>
       </div>
-      <div class="text pl-3 pl-md-3">
-        <p class="hr"><span>Our Location</span></p>
-        <p class="con">Port Harcourt, Rivers State, Nigeria</p>
+      <div class="text pl-3 pl-md-3 w-100" style="overflow: hidden">
+        <div
+          id="nav-address-marquee"
+          class="nav-address-marquee"
+          style="white-space: nowrap; display: block; width: 100%"></div>
       </div>
     </div>
   </div>
 </div>
 
+<style>
+  @keyframes navMarqueeScroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  .nav-address-marquee {
+    overflow-x: auto;
+    cursor: grab;
+    white-space: nowrap;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .nav-address-marquee::-webkit-scrollbar {
+    display: none;
+  }
+  .nav-address-marquee-inner {
+    display: inline-block;
+    white-space: nowrap;
+    min-width: 200%;
+    animation: navMarqueeScroll 65s linear infinite;
+  }
+  .nav-address-marquee.paused .nav-address-marquee-inner {
+    animation-play-state: paused !important;
+  }
+  .nav-address-marquee.dragging {
+    cursor: grabbing;
+  }
+</style>
+
 <script>
   $(document).ready(function () {
     $("#main-nav").addClass("pt-4 pb-5");
+    var $marquee = $("#nav-address-marquee");
+    $.getJSON("data/addresses.json", function (addresses) {
+      if (!addresses || !addresses.length) return;
+      var html = addresses
+        .map(function (addr) {
+          return `<p style='display:inline-block; font-weight: 100; margin-right: 48px;'><span style='font-weight: bold; font-size: 14px; color: #000;'>${addr.name}:</span> <br/>${addr.address}<br/><span class='fa fa-phone  mr-1'></span>${addr.phone}
+          </p>
+
+          `;
+        })
+        .join("");
+      $marquee.html(
+        `<div class='nav-address-marquee-inner'>${html + html}</div>`
+      );
+
+      // Pause/resume on hover
+      $marquee.on("mouseenter", function () {
+        $marquee.addClass("paused");
+      });
+      $marquee.on("mouseleave", function () {
+        $marquee.removeClass("paused");
+      });
+
+      // Click-and-drag/touch-drag to scroll left or right
+      var isDragging = false,
+        startX,
+        scrollLeft;
+      $marquee.on("mousedown touchstart", function (e) {
+        isDragging = true;
+        $marquee.addClass("paused dragging");
+        startX = e.pageX || e.originalEvent.touches[0].pageX;
+        scrollLeft = $marquee.scrollLeft();
+        e.preventDefault();
+      });
+      $(document).on("mousemove touchmove", function (e) {
+        if (!isDragging) return;
+        var x =
+          e.pageX ||
+          (e.originalEvent.touches && e.originalEvent.touches[0].pageX);
+        var walk = startX - x;
+        $marquee.scrollLeft(scrollLeft + walk);
+      });
+      $(document).on("mouseup touchend", function () {
+        if (isDragging) {
+          isDragging = false;
+          $marquee.removeClass("dragging");
+          setTimeout(function () {
+            $marquee.removeClass("paused");
+          }, 100);
+        }
+      });
+    });
   });
 </script>

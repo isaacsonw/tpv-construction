@@ -4,9 +4,9 @@
 	width: 6.5em;
 	background: #fff;
 	border: 1px solid #ddd;
-	-webkit-box-shadow:0 5px 10px rgba(0,0,0,0.2);
-	-moz-box-shadow:0 5px 10px rgba(0,0,0,0.2);
-	box-shadow:0 5px 10px rgba(0,0,0,0.2);
+	box-shadow:0 5px 10px rgb(0 0 0 / 20%);
+	box-shadow:0 5px 10px rgb(0 0 0 / 20%);
+	box-shadow:0 5px 10px rgb(0 0 0 / 20%);
 	outline: none;
 	z-index: 10001;
 	margin: 0;

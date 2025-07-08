@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Steel Fabrication Blueprint",
+    "description": "Detailed technical drawing for a custom steel structure, highlighting precision engineering and safety standards.",
+    "image": "images/Steel_fabrications.jpg",
+    "category": "Steel"
+  },
+  {
+    "id": 2,
+    "title": "Private Residence Plan",
+    "description": "Architectural plan for a modern Nigerian home, featuring efficient space utilization and contemporary design.",
+    "image": "images/Construction_private_residence2.jpg",
+    "category": "Residential"
+  },
+  {
+    "id": 3,
+    "title": "Internal Remodelling Drawing",
+    "description": "Technical design for interior remodelling, ensuring optimal flow and modern aesthetics for residential spaces.",
+    "image": "images/Internal_remodelling2.jpg",
+    "category": "Remodelling"
+  },
+  {
+    "id": 4,
+    "title": "Perimeter Fence Design",
+    "description": "Blueprint for a secure and visually appealing perimeter fence, tailored for Nigerian residential and commercial properties.",
+    "image": "images/Perimeter_fence.jpg",
+    "category": "Perimeter"
+  },
+  {
+    "id": 5,
+    "title": "Steel Fabrication Detail",
+    "description": "Close-up of technical details for steel fabrication, demonstrating our expertise in structural engineering.",
+    "image": "images/Steel_fabrications2.jpg",
+    "category": "Steel"
+  },
+  {
+    "id": 6,
+    "title": "Residential Construction Drawing",
+    "description": "Comprehensive construction drawing for a residential project, ensuring compliance with local building codes.",
+    "image": "images/Construction_private_residence.jpg",
+    "category": "Residential"
+  }
+]

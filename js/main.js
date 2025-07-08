@@ -40,7 +40,7 @@
       items: 1,
       margin: 30,
       stagePadding: 0,
-      nav: false,
+      nav: true,
       dots: true,
       navText: [
         '<span class="ion-ios-arrow-back">',
@@ -231,6 +231,7 @@
     autoclose: true
   });
   $(".appointment_time").timepicker();
+
   // Add favicon to all pages
   function addFavicon() {
     if (!document.querySelector("link[rel='icon']")) {
@@ -246,9 +247,15 @@
     addFavicon();
   });
 
-  $("#socials-nav").load("components/socials-nav.html");
-  $("#main-nav").load("components/main-nav.html");
-  $("#ftco-navbar").load("components/nav.html");
+  // Load nav and footer components
+  $(function () {
+    $("#socials-nav").load("components/socials-nav.html");
+    $("#main-nav").load("components/main-nav.html");
+    $("#ftco-navbar").load("components/nav.html");
+    $("#request-quote-modal").load("components/request-quote-modal.html");
+    $("#footer-section").load("components/footer-section.html");
+  });
+
   // Make ftco-navbar stick to the top on scroll
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
@@ -262,5 +269,4 @@
       $("body").css("padding-top", "0");
     }
   });
-  $("#footer").load("components/footer.html");
 })(jQuery);

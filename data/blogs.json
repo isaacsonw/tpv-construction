@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "title": "Best for any industrial & business solution",
+    "image": "images/Construction_workers_in_Lagos,Nigeria_02.jpg",
+    "date": "2020-09-06",
+    "author": "Admin",
+    "categories": ["Industry", "Tips"],
+    "comments": 3,
+    "excerpt": "In Lagos, Nigeria’s commercial capital, innovative construction teams are using modern equipment (see image) to deliver industrial solutions that power the city’s rapid growth.",
+    "url": "blog-single.html"
+  },
+  {
+    "id": 2,
+    "title": "How to choose the right contractor",
+    "image": "images/Internal_remodelling2.jpg",
+    "date": "2020-09-06",
+    "author": "Admin",
+    "categories": ["Advice"],
+    "comments": 3,
+    "excerpt": "In Abuja, selecting a contractor with local experience is key. The image shows a recent interior remodel in Wuse, highlighting the value of skilled, certified professionals.",
+    "url": "blog-single.html"
+  },
+  {
+    "id": 3,
+    "title": "Modern construction trends in 2020",
+    "image": "images/Steel_fabrications2.jpg",
+    "date": "2020-09-06",
+    "author": "Admin",
+    "categories": ["Trends"],
+    "comments": 3,
+    "excerpt": "Port Harcourt is embracing steel fabrication and modular design (see image), setting the pace for modern construction trends across southern Nigeria.",
+    "url": "blog-single.html"
+  },
+  {
+    "id": 4,
+    "title": "Safety first: Site best practices",
+    "image": "images/Construction_private_residence2.jpg",
+    "date": "2020-09-07",
+    "author": "Admin",
+    "categories": ["Safety"],
+    "comments": 2,
+    "excerpt": "Kaduna’s new residential projects (image) are a model for site safety, with strict adherence to PPE and local building codes keeping workers safe.",
+    "url": "blog-single.html"
+  },
+  {
+    "id": 5,
+    "title": "Eco-friendly building materials",
+    "image": "images/Steel_fabrications.jpg",
+    "date": "2020-09-08",
+    "author": "Admin",
+    "categories": ["Environment"],
+    "comments": 4,
+    "excerpt": "In Enugu, eco-friendly steel and bamboo (see image) are being used to create sustainable homes that reduce environmental impact and energy costs.",
+    "url": "blog-single.html"
+  },
+  {
+    "id": 6,
+    "title": "Project management tips for success",
+    "image": "images/project-1.jpg",
+    "date": "2020-09-09",
+    "author": "Admin",
+    "categories": ["Management", "Tips"],
+    "comments": 1,
+    "excerpt": "A successful project in Ibadan (image) shows how clear timelines, local sourcing, and community engagement lead to construction success in Nigeria.",
+    "url": "blog-single.html"
+  },
+  {
+    "id": 7,
+    "title": "The future of smart buildings",
+    "image": "images/bg_02.jpg",
+    "date": "2020-09-10",
+    "author": "Admin",
+    "categories": ["Technology"],
+    "comments": 5,
+    "excerpt": "Smart buildings in Victoria Island, Lagos (see image) now feature solar panels and IoT sensors, making them models for energy efficiency in West Africa.",
+    "url": "blog-single.html"
+  },
+  {
+    "id": 8,
+    "title": "Renovation vs. new construction",
+    "image": "images/Internal_remodelling.jpg",
+    "date": "2020-09-11",
+    "author": "Admin",
+    "categories": ["Renovation"],
+    "comments": 2,
+    "excerpt": "This renovated home in Surulere, Lagos (image) demonstrates the cost and time benefits of upgrading existing structures versus building new in Nigeria’s urban centers.",
+    "url": "blog-single.html"
+  },
+  {
+    "id": 9,
+    "title": "How to budget for your next project",
+    "image": "images/bg_1.jpg",
+    "date": "2020-09-12",
+    "author": "Admin",
+    "categories": ["Finance"],
+    "comments": 6,
+    "excerpt": "Budgeting for a new office in Uyo (see image) requires careful planning, with attention to local prices, inflation, and reliable suppliers for every stage.",
+    "url": "blog-single.html"
+  },
+  {
+    "id": 10,
+    "title": "Women in construction: Breaking barriers",
+    "image": "images/person_2.jpg",
+    "date": "2020-09-13",
+    "author": "Admin",
+    "categories": ["Diversity"],
+    "comments": 3,
+    "excerpt": "Female engineers and architects in Abuja (image) are breaking barriers, leading major projects and inspiring the next generation of women in construction.",
+    "url": "blog-single.html"
+  },
+  {
+    "id": 11,
+    "title": "Sustainable urban development",
+    "image": "images/bg_01.jpg",
+    "date": "2020-09-14",
+    "author": "Admin",
+    "categories": ["Urbanism", "Sustainability"],
+    "comments": 4,
+    "excerpt": "Lekki’s green spaces and modern infrastructure (see image) are examples of how Nigerian cities are embracing sustainable urban development for the future.",
+    "url": "blog-single.html"
+  },
+  {
+    "id": 12,
+    "title": "The role of AI in construction",
+    "image": "images/house-1280x720.webp",
+    "date": "2020-09-15",
+    "author": "Admin",
+    "categories": ["Technology", "AI"],
+    "comments": 7,
+    "excerpt": "AI-powered design and project management (image) are now being used in Nigerian construction, from Lagos to Kano, to improve efficiency and quality.",
+    "url": "blog-single.html"
+  }
+]
