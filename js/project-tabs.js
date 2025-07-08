@@ -1,6 +1,6 @@
 // project-tabs.js
 $(function () {
-  const PROJECTS_PER_PAGE = 3;
+  const PROJECTS_PER_PAGE = 6;
   let allProjects = [];
   let currentTab = "all";
   let currentPage = { all: 1, latest: 1, gtb: 1 };

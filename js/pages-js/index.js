@@ -135,6 +135,51 @@ $(document).ready(function () {
       });
   }
 
+  // Load latest GTB projects for homepage
+  function loadLatestProjects() {
+    if (!$("#latest-projects-section").length) return;
+    $("#latest-projects-section").html(
+      '<div class="col-12 text-center"><p>Loading latest projects...</p></div>'
+    );
+    $.getJSON("data/projects.json")
+      .done(function (projects) {
+        // Only GTB projects, most recent 3
+        const latestProjects = projects
+          .filter((p) => p.categories && p.categories.includes("GTB"))
+          .slice(-3)
+          .reverse();
+        const projectsHtml = latestProjects
+          .map(function (project) {
+            return `
+              <div class="col-md-4">
+                <div class="project">
+                  <a href="${project.image}" class="img image-popup d-flex align-items-center" style="background-image: url('${project.image}')">
+                    <div class="icon d-flex align-items-center justify-content-center mb-5">
+                      <span class="fa fa-plus"></span>
+                    </div>
+                  </a>
+                  <div class="text">
+                    <span class="subheading">Building</span>
+                    <h3>${project.title}</h3>
+                    <p><span class="fa fa-map-marker mr-1"></span> ${project.location}</p>
+                  </div>
+                </div>
+              </div>
+            `;
+          })
+          .join("");
+        $("#latest-projects-section").html(projectsHtml);
+        setTimeout(function () {
+          $(".ftco-animate").addClass("fadeInUp ftco-animated");
+        }, 100);
+      })
+      .fail(function () {
+        $("#latest-projects-section").html(
+          '<div class="col-12 text-center"><p>Failed to load latest projects.</p></div>'
+        );
+      });
+  }
+
   // Helper: Format date
   function formatDate(dateStr) {
     const d = new Date(dateStr);
@@ -147,4 +192,6 @@ $(document).ready(function () {
 
   // Load latest blogs
   loadLatestBlogs();
+  // Load latest projects
+  loadLatestProjects();
 });
